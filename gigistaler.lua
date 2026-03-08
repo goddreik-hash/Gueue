@@ -88,8 +88,8 @@ local header=mkFrame(win,C.header,UDim2.new(1,0,0,HDR_H),UDim2.new(0,0,0,0),5); 
 mkFrame(header,C.header,UDim2.new(1,0,0,12),UDim2.new(0,0,1,-12),5)
 local appIcoBg=mkFrame(header,C.darkCyan,UDim2.new(0,26,0,26),UDim2.new(0,7,0.5,-13),6); mkCorner(appIcoBg,7)
 mkLabel(appIcoBg,"❄",UDim2.new(1,0,1,0),UDim2.new(0,0,0,0),15,Enum.Font.GothamBold,C.cyan,Enum.TextXAlignment.Center,7)
-mkLabel(header,"Freeze Trade",UDim2.new(0,140,0,18),UDim2.new(0,40,0,4),13,Enum.Font.GothamBold,C.white,Enum.TextXAlignment.Left,6)
-mkLabel(header,"scriptboz",UDim2.new(0,140,0,14),UDim2.new(0,40,0,19),9,Enum.Font.Gotham,C.muted,Enum.TextXAlignment.Left,6)
+mkLabel(header,"gigi trade scam",UDim2.new(0,140,0,18),UDim2.new(0,40,0,4),13,Enum.Font.GothamBold,C.white,Enum.TextXAlignment.Left,6)
+mkLabel(header,"gigi stealer",UDim2.new(0,140,0,14),UDim2.new(0,40,0,19),9,Enum.Font.Gotham,C.muted,Enum.TextXAlignment.Left,6)
 
 local function mkWinBtn(sym,xOff,bgCol)
     local b=Instance.new("TextButton",header); b.BackgroundColor3=bgCol or C.card; b.BorderSizePixel=0
