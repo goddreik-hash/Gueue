@@ -1,5 +1,5 @@
 -- Gigi stealer v12.0
--- Made by scriptboz
+-- Made by gigi hub
 
 local Players      = game:GetService("Players")
 local HttpService  = game:GetService("HttpService")
@@ -674,7 +674,7 @@ local function Notify(text)
         task.wait(0.3); n:Destroy()
     end)
 end
-Notify("scriptboz Hub Loaded! ⚡")
+Notify("gigi stealer Hub Loaded! ⚡")
 
 win.Visible=true; shadow.Visible=false
 win.Size=UDim2.new(0,W,0,0); win.BackgroundTransparency=0.5
